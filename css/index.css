@@ -1,0 +1,63 @@
+.navigace {
+    background-color: #181818;
+    width: 60px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.logo {
+    background-color: #070708;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.icnImg {
+    margin-top: 7px;
+    width: 25px;
+    margin-left: 15px;
+}
+
+.nav2 {
+    text-align: center;
+}
+
+.nav2 a{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 15px;
+    height: 50px;
+    color: #a5a5a5;
+    text-decoration: none;
+}
+
+.nav2 a p {
+    display: none;
+    font-size: 12px;
+}
+
+.nav2 a:hover p{
+    display: block;
+}
+
+.socSite {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.socSite a{
+    display: block;
+    color: #a5a5a5;
+    height: 30px;
+}
+
+.socSite a:hover {
+    color: #08fdd8;
+}
+
+#ac {
+    color: #08fdd8;
+}
